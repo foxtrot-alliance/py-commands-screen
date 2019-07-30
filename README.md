@@ -1,6 +1,6 @@
 # py-commands-screen
 
-This program allows you to execute screen-based commands such as clicking with the mouse, sending keystrokes, and taking screenshots. You can run the program via the CMD or as part of an automation script in an RPA tool like Foxtrot. This solution is meant to supplement Foxtrots core functionality and enable you to perform certain actions based on specified coordinates on the screen rather than Foxtrots own targeting technology. The solution is written in Python using the modules "pyautogui" and "keyboard". You can see the [full source code] here.
+This program allows you to execute screen-based commands such as clicking with the mouse, sending keystrokes, and taking screenshots. You can run the program via the CMD or as part of an automation script in an RPA tool like Foxtrot. This solution is meant to supplement Foxtrots core functionality and enable you to perform certain actions based on specified coordinates on the screen rather than Foxtrots own targeting technology. The solution is written in Python using the modules "pyautogui" and "keyboard". You can see the [full source code here](https://github.com/foxtrot-alliance/py-commands-screen/blob/master/py-commands-screen.py).
 
 ## Installation
 
