@@ -160,10 +160,10 @@ def validate_project_parameters(parameters):
     if traces is True:
         print(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + ": " + "\tScreenshot path = " + str(screenshot_path))
 
-        if not screenshot_region.upper() == "ALL":
-            screenshot_region = eval(screenshot_region)
-        elif screenshot_region == "":
-            return "ERROR: Empty screenshot region parameter!"
+    if not screenshot_region.upper() == "ALL":
+        screenshot_region = eval(screenshot_region)
+    elif screenshot_region == "":
+        return "ERROR: Empty screenshot region parameter!"
 
     if traces is True:
         print(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + ": " + "\tScreenshot region = " + str(screenshot_region))
