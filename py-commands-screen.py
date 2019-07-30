@@ -5,6 +5,7 @@ import datetime
 import keyboard
 import traceback
 
+
 def retrieve_project_parameters():
     
     parameters = sys.argv
@@ -75,6 +76,7 @@ def retrieve_project_parameters():
         "screenshot_path": screenshot_path,
         "screenshot_region": screenshot_region,
     }
+
 
 def validate_project_parameters(parameters):
     
@@ -180,6 +182,7 @@ def validate_project_parameters(parameters):
         "screenshot_region": screenshot_region,
     }
         
+    
 def execute_command(parameters):
     
     traces = parameters["traces"]
@@ -320,6 +323,7 @@ def execute_command(parameters):
         return "ERROR: Unexpected issue!"
     
     return True
+    
     
 def main():
     
