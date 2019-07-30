@@ -157,11 +157,11 @@ Examples:
 ### Take screenshot
 Parameters:
 ```
--screenshot_path "X" -screenshot_region: "all"/"(StartLeft, StartTop, Width, Height)"
+-screenshot_path "X" -screenshot_region "all"/"(StartLeft, StartTop, Width, Height)"
 ```
 Examples:
 ```
--screenshot_path "c:\screenshots\screenshot.png" -screenshot_region: "all"
--screenshot_path "c:\screenshots\screenshot.png" -screenshot_region: "(0, 0, 1000, 1000)"
--screenshot_path "c:\screenshots\screenshot.png" -screenshot_region: "(1000, 1000, 1500, 1500)"
+-screenshot_path "c:\screenshots\screenshot.png" -screenshot_region "all"
+-screenshot_path "c:\screenshots\screenshot.png" -screenshot_region "(0, 0, 1000, 1000)"
+-screenshot_path "c:\screenshots\screenshot.png" -screenshot_region "(1000, 1000, 1500, 1500)"
 ```
