@@ -51,7 +51,7 @@ It would look like this:
 PROGRAM_EXE_PATH -command_click "X" -position "X" [-value "X"] [-hover "X"] -command_send "X" -value "X" -screenshot_path "X" -screenshot_region "X"
 ```
 
-## Examples
+## Example
 This example will first right-clicki and then send the keys "Down" "Down" "Enter":
 ```
 PROGRAM_EXE_PATH -command_click "rightclick" -position "100, 100" -hover "true" -command_send "keys" -value "down, down, enter"
