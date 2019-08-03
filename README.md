@@ -89,79 +89,79 @@ PROGRAM_EXE_PATH -command_click "rightclick" -position "100, 100" -hover "true" 
 ### Click
 Parameters:
 ```
--command_click "click" -position "X, Y" [-hover "true"/"false"]
+PROGRAM_EXE_PATH -command_click "click" -position "X, Y" [-hover "true"/"false"]
 ```
 Examples:
 ```
--command_click "click" -position "250, 100"
--command_click "click" -position "100, 200" -hover "true"
+PROGRAM_EXE_PATH -command_click "click" -position "250, 100"
+PROGRAM_EXE_PATH -command_click "click" -position "100, 200" -hover "true"
 ```
 
 ### Double-click
 Parameters:
 ```
--command_click "doubleclick" -position "X, Y" [-hover "true"/"false"]
+PROGRAM_EXE_PATH -command_click "doubleclick" -position "X, Y" [-hover "true"/"false"]
 ```
 Examples:
 ```
--command_click "doubleclick" -position "250, 100"
--command_click "doubleclick" -position "100, 200" -hover "true"
+PROGRAM_EXE_PATH -command_click "doubleclick" -position "250, 100"
+PROGRAM_EXE_PATH -command_click "doubleclick" -position "100, 200" -hover "true"
 ```
 
 ### Right-click
 Parameters:
 ```
--command_click "rightclick" -position "X, Y" [-hover "true"/"false"]
+PROGRAM_EXE_PATH -command_click "rightclick" -position "X, Y" [-hover "true"/"false"]
 ```
 Examples:
 ```
--command_click "rightclick" -position "250, 100"
--command_click "rightclick" -position "100, 200" -hover "true"
+PROGRAM_EXE_PATH -command_click "rightclick" -position "250, 100"
+PROGRAM_EXE_PATH -command_click "rightclick" -position "100, 200" -hover "true"
 ```
 
 ### Drag-and-drop
 Parameters:
 ```
--command_click "clickdragdrop" -position "X, Y" -value "X, Y" [-hover "true"/"false"]
+PROGRAM_EXE_PATH -command_click "clickdragdrop" -position "X, Y" -value "X, Y" [-hover "true"/"false"]
 ```
 Examples:
 ```
--command_click "clickdragdrop" -position "250, 100" -value "500, 200"
--command_click "clickdragdrop" -position "100, 200" -value "200, 400" -hover "true"
+PROGRAM_EXE_PATH -command_click "clickdragdrop" -position "250, 100" -value "500, 200"
+PROGRAM_EXE_PATH -command_click "clickdragdrop" -position "100, 200" -value "200, 400" -hover "true"
 ```
 
 ### Write text
 Parameters:
 ```
--command_send "text" -value "X"
+PROGRAM_EXE_PATH -command_send "text" -value "X"
 ```
 Examples:
 ```
--command_send "text" -value "Hello World"
--command_send "text" -value "How are things going?"
+PROGRAM_EXE_PATH -command_send "text" -value "Hello World"
+PROGRAM_EXE_PATH -command_send "text" -value "How are things going?"
 ```
 
 ### Send keystrokes
 Parameters:
 ```
--command_send "keys" -value "X"
+PROGRAM_EXE_PATH -command_send "keys" -value "X"
 ```
 Examples:
 ```
--command_send "text" -value "down, down, enter"
--command_send "text" -value "ctrl+alt+del"
--command_send "text" -value "alt+F4, enter"
--command_send "text" -value "shift+s"
+PROGRAM_EXE_PATH -command_send "text" -value "down, down, enter"
+PROGRAM_EXE_PATH -command_send "text" -value "ctrl+alt+del"
+PROGRAM_EXE_PATH -command_send "text" -value "alt+F4, enter"
+PROGRAM_EXE_PATH -command_send "text" -value "shift+s"
 ```
 
 ### Take screenshot
 Parameters:
 ```
--screenshot_path "X" -screenshot_region "all"/"(StartLeft, StartTop, Width, Height)"
+PROGRAM_EXE_PATH -screenshot_path "X" -screenshot_region "all"/"(StartLeft, StartTop, Width, Height)"
 ```
 Examples:
 ```
--screenshot_path "c:\screenshots\screenshot.png" -screenshot_region "all"
--screenshot_path "c:\screenshots\screenshot.png" -screenshot_region "(0, 0, 1000, 1000)"
--screenshot_path "c:\screenshots\screenshot.png" -screenshot_region "(1000, 1000, 1500, 1500)"
+PROGRAM_EXE_PATH -screenshot_path "c:\screenshots\screenshot.png" -screenshot_region "all"
+PROGRAM_EXE_PATH -screenshot_path "c:\screenshots\screenshot.png" -screenshot_region "(0, 0, 1000, 1000)"
+PROGRAM_EXE_PATH -screenshot_path "c:\screenshots\screenshot.png" -screenshot_region "(1000, 1000, 1500, 1500)"
 ```
