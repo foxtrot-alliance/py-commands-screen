@@ -150,10 +150,10 @@ PROGRAM_EXE_PATH -command_send "keys" -value "X"
 ```
 Examples:
 ```
-PROGRAM_EXE_PATH -command_send "text" -value "down, down, enter"
-PROGRAM_EXE_PATH -command_send "text" -value "ctrl+alt+del"
-PROGRAM_EXE_PATH -command_send "text" -value "alt+F4, enter"
-PROGRAM_EXE_PATH -command_send "text" -value "shift+s"
+PROGRAM_EXE_PATH -command_send "keys" -value "down, down, enter"
+PROGRAM_EXE_PATH -command_send "keys" -value "ctrl+alt+del"
+PROGRAM_EXE_PATH -command_send "keys" -value "alt+F4, enter"
+PROGRAM_EXE_PATH -command_send "keys" -value "shift+s"
 ```
 
 ### Take screenshot
